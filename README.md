@@ -85,3 +85,82 @@ Este enfoque garantiza eficiencia, reducción de errores manuales y escalabilida
 ![Gráfico de pedidos por mes](./14-%20grafico_pedidos_por_mes_2025-06-25.png)
 
 
+# Automated Pipeline for Analyzing Mental Health Referral Reasons
+
+This project is a **fully automated solution** developed in **Python** to process, analyze, and categorize **mental health referral reasons** based on data collected from forms. Its goal is to transform **raw data** into **useful and actionable information**, supporting **clinical management** and **evidence-based decision making**.
+
+The entire workflow is structured as a **data analysis pipeline**, linking dedicated modules for reading, cleaning, categorization, visualization, exporting, and reporting. This architecture ensures the process is **repeatable, efficient, and scalable**.
+
+Additionally, the system automates the **generation of reports** in multiple formats (**CSV, Excel, PDF, DOCX**), the **creation of clear and effective visualizations** for analysis, and the **automatic email delivery** of these reports to the relevant stakeholders, ensuring **timely and efficient information distribution**.
+
+---
+
+## Technologies and Libraries Used
+
+The project is built primarily with the following Python libraries:
+
+- **pandas**: for efficient tabular data manipulation and cleaning.  
+- **numpy**: for numerical operations and data analysis support.  
+- **unicodedata and re**: for advanced text normalization and cleaning.  
+- **rapidfuzz**: for implementing fuzzy matching techniques to detect approximate text matches. This is key for handling possible human input errors in required forms often filled under tight time constraints.  
+- **matplotlib and seaborn**: for generating charts and visualizations that enhance result interpretation.  
+- **os**: for file system operations, path handling, and directory management.  
+- **datetime**: for accurate date and time handling, essential for timestamped file generation.  
+- **python-docx (Document)**: for creating and modifying Word documents (.docx) as part of the exported reports.  
+- **smtplib and email.message (EmailMessage)**: for automating the sending of generated reports via email.  
+
+---
+
+## Code Structure and Modularity
+
+The code is modularized into functions and scripts with clear, specific roles, improving maintainability and reusability:
+
+- **Reading and preprocessing**: loading datasets, cleaning text, and data normalization.  
+- **Fuzzy categorization using rapidfuzz**: applying fuzzy matching algorithms to assign categories based on textual variations, with configurable thresholds and keyword lists to enhance accuracy and reduce typos or language variation issues.  
+- **Metrics and visualization generation**: computing frequencies and trends, and generating descriptive charts to facilitate analysis and communication of results.  
+- **Export, reporting, and automation**: generating timestamped CSV, Excel, PDF, and Word files, and automatically sending them via email for immediate distribution to stakeholders.  
+
+---
+
+## Automated and Repeatable Process
+
+The workflow is designed to be fully automated and schedulable, allowing for:
+
+- Running the entire analysis with a single command or main script (`main.py`).  
+- Generating timestamped reports and maintaining a clean historical log.  
+- Producing informative visualizations ready for reporting.  
+- Easily adapting to new datasets by updating only the input files.  
+- Integration with external systems through automated email delivery.  
+
+This approach ensures efficiency, reduces manual errors, and provides scalability for future improvements.
+
+---
+
+## Repository Contents
+
+| File | Brief Description |
+|------|-------------------|
+| [`1- categorias.py`](./1-%20categorias.py) | Defines and organizes relevant categories for referral analysis. |
+| [`2- configuración.py`](./2-%20configuración.py) | Contains global parameters, paths, and constants used throughout the project. |
+| [`3- diccionario.py`](./3-%20diccionario.py) | Keyword dictionary associated with each category for fuzzy matching. |
+| [`4- enviar_mail.py`](./4-%20enviar_mail.py) | Configures and sends emails with the generated reports. |
+| [`5- funciones_limpieza.py`](./5-%20funciones_limpieza.py) | Reusable functions for text normalization and cleaning. |
+| [`6- graficos.py`](./6-%20graficos.py) | Generates visualizations from the processed metrics. |
+| [`7- informe_pdf.py`](./7-%20informe_pdf.py) | Exports the report to PDF, including visualizations and tables. |
+| [`8- normalizacion.py`](./8-%20normalizacion.py) | Standardizes the referral reason texts. |
+| [`9- pipe con pdf gh.py`](./9-%20pipe%20con%20pdf%20gh.py) | Executes the full pipeline and includes PDF export. |
+| [`10- Pipeline gh.py`](./10-%20Pipeline%20gh.py) | Main pipeline script (without PDF), for modular execution. |
+| [`11- preparar_datos.py`](./11-%20preparar_datos.py) | Functions for data loading, filtering, and transformation. |
+| [`12- resumen.py`](./12-%20resumen.py) | Calculates summary metrics and prepares report content. |
+| [`13- datos_ejemplo.csv`](./13-%20datos_ejemplo.csv) | Simulated example dataset (no sensitive data), for testing purposes. |
+| [`14- grafico_pedidos_por_mes_2025-06-25.png`](./14-%20grafico_pedidos_por_mes_2025-06-25.png) | Monthly referral request visualization. |
+| [`15- top10_motivos_2025-06-25.png`](./15-%20top10_motivos_2025-06-25.png) | Chart showing the 10 most frequent referral reasons. |
+
+---
+
+## 📊 Example Visualizations Generated by the Pipeline
+
+### Top 10 Referral Reasons
+
+![Top 10 Referral Reasons](./15-%20top10_motivos_2025-06-25.png)
+
