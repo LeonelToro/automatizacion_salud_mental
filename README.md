@@ -139,22 +139,22 @@ This approach ensures efficiency, reduces manual errors, and provides scalabilit
 ## Repository Contents
 
 | File | Brief Description |
-|------|-------------------|
-| [`1- categorias.py`](./1-%20categorias.py) | Defines and organizes relevant categories for referral analysis. |
-| [`2- configuración.py`](./2-%20configuración.py) | Contains global parameters, paths, and constants used throughout the project. |
-| [`3- diccionario.py`](./3-%20diccionario.py) | Keyword dictionary associated with each category for fuzzy matching. |
-| [`4- enviar_mail.py`](./4-%20enviar_mail.py) | Configures and sends emails with the generated reports. |
-| [`5- funciones_limpieza.py`](./5-%20funciones_limpieza.py) | Reusable functions for text normalization and cleaning. |
-| [`6- graficos.py`](./6-%20graficos.py) | Generates visualizations from the processed metrics. |
-| [`7- informe_pdf.py`](./7-%20informe_pdf.py) | Exports the report to PDF, including visualizations and tables. |
-| [`8- normalizacion.py`](./8-%20normalizacion.py) | Standardizes the referral reason texts. |
-| [`9- pipe con pdf gh.py`](./9-%20pipe%20con%20pdf%20gh.py) | Executes the full pipeline and includes PDF export. |
-| [`10- Pipeline gh.py`](./10-%20Pipeline%20gh.py) | Main pipeline script (without PDF), for modular execution. |
-| [`11- preparar_datos.py`](./11-%20preparar_datos.py) | Functions for data loading, filtering, and transformation. |
-| [`12- resumen.py`](./12-%20resumen.py) | Calculates summary metrics and prepares report content. |
-| [`13- datos_ejemplo.csv`](./13-%20datos_ejemplo.csv) | Simulated example dataset (no sensitive data), for testing purposes. |
-| [`14- grafico_pedidos_por_mes_2025-06-25.png`](./14-%20grafico_pedidos_por_mes_2025-06-25.png) | Monthly referral request visualization. |
-| [`15- top10_motivos_2025-06-25.png`](./15-%20top10_motivos_2025-06-25.png) | Chart showing the 10 most frequent referral reasons. |
+|---------|-------------------|
+| [`categorias.py`](./categorias.py) | Defines and organizes relevant categories for referral analysis. |
+| [`configuracion.py`](./configuracion.py) | Contains global parameters, paths, and constants used throughout the project. |
+| [`diccionario.py`](./diccionario.py) | Keyword dictionary associated with each category for fuzzy matching. |
+| [`enviar_mail.py`](./enviar_mail.py) | Script to configure and automatically send emails with the generated reports. |
+| [`funciones_limpieza.py`](./funciones_limpieza.py) | Reusable functions for text normalization and cleaning. |
+| [`graficos.py`](./graficos.py) | Generates visualizations from processed metrics. |
+| [`informe_pdf.py`](./informe_pdf.py) | Exports the report in PDF format, including visualizations and tables. |
+| [`normalizacion.py`](./normalizacion.py) | Processes to standardize referral reason texts. |
+| [`pipe_con_pdf_gh.py`](./pipe_con_pdf_gh.py) | Script that runs the full pipeline including PDF export. |
+| [`pipeline_gh.py`](./pipeline_gh.py) | Main pipeline script (without PDF), designed for modular execution. |
+| [`preparar_datos.py`](./preparar_datos.py) | Functions for loading, filtering, and initial data transformation. |
+| [`resumen.py`](./resumen.py) | Calculates aggregated metrics and prepares summary report content. |
+| [`datos_ejemplo.csv`](./datos_ejemplo.csv) | Simulated example dataset (no sensitive data), used for testing. |
+| [`grafico_pedidos_por_mes_2025_06_25.png`](./grafico_pedidos_por_mes_2025_06_25.png) | Visualization of referral requests per month. |
+| [`top10_motivos_2025_06_25.png`](./top10_motivos_2025_06_25.png) | Chart showing the top 10 most frequent referral reasons. |
 
 ---
 
