@@ -55,8 +55,8 @@ Este enfoque garantiza eficiencia, reducción de errores manuales y escalabilida
 
 | Archivo | Descripción breve |
 |--------|--------------------|
-| [`1- categorias.py`](./1-%20categorias.py) | Define y organiza las categorías relevantes para el análisis de motivos. |
-| [`2- configuración.py`](./2-%20configuración.py) | Contiene parámetros globales, paths y constantes utilizadas en todo el proyecto. |
+| [`1- categorias.py`](./%20categorias.py) | Define y organiza las categorías relevantes para el análisis de motivos. |
+| [`2- configuración.py`](./%20configuración.py) | Contiene parámetros globales, paths y constantes utilizadas en todo el proyecto. |
 | [`3- diccionario.py`](./3-%20diccionario.py) | Diccionario de términos clave asociados a cada categoría para el fuzzy matching. |
 | [`4- enviar_mail.py`](./4-%20enviar_mail.py) | Script para configurar y enviar automáticamente los correos con los reportes. |
 | [`5- funciones_limpieza.py`](./5-%20funciones_limpieza.py) | Funciones reutilizables para normalización y limpieza de texto. |
