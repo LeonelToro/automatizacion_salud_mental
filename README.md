@@ -78,11 +78,11 @@ Este enfoque garantiza eficiencia, reducción de errores manuales y escalabilida
 
 ### Top 10 motivos de derivación
 
-![Top 10 motivos de derivación](./15-%20top10_motivos_2025-06-25.png)
+![Top 10 motivos de derivación](./top10_motivos_2025-06-25.png)
 
 ### Derivaciones por mes
 
-![Gráfico de pedidos por mes](./14-%20grafico_pedidos_por_mes_2025-06-25.png)
+![Gráfico de pedidos por mes](./grafico_pedidos_por_mes_2025-06-25.png)
 
 
 # Automated Pipeline for Analyzing Mental Health Referral Reasons
@@ -162,5 +162,5 @@ This approach ensures efficiency, reduces manual errors, and provides scalabilit
 
 ### Top 10 Referral Reasons
 
-![Top 10 Referral Reasons](./15-%20top10_motivos_2025-06-25.png)
+![Top 10 Referral Reasons](./top10_motivos_2025-06-25.png)
 
