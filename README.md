@@ -54,22 +54,22 @@ Este enfoque garantiza eficiencia, reducción de errores manuales y escalabilida
 ## Contenido del repositorio
 
 | Archivo | Descripción breve |
-|--------|--------------------|
-| [`1- categorias.py`](./%20categorias.py) | Define y organiza las categorías relevantes para el análisis de motivos. |
-| [`2- configuración.py`](./%20configuración.py) | Contiene parámetros globales, paths y constantes utilizadas en todo el proyecto. |
-| [`3- diccionario.py`](./3-%20diccionario.py) | Diccionario de términos clave asociados a cada categoría para el fuzzy matching. |
-| [`4- enviar_mail.py`](./4-%20enviar_mail.py) | Script para configurar y enviar automáticamente los correos con los reportes. |
-| [`5- funciones_limpieza.py`](./5-%20funciones_limpieza.py) | Funciones reutilizables para normalización y limpieza de texto. |
-| [`6- graficos.py`](./6-%20graficos.py) | Generación de visualizaciones a partir de las métricas procesadas. |
-| [`7- informe_pdf.py`](./7-%20informe_pdf.py) | Exportación del informe en formato PDF, incluyendo visualizaciones y tablas. |
-| [`8- normalizacion.py`](./8-%20normalizacion.py) | Procesos para homogeneizar los textos del motivo de derivación. |
-| [`9- pipe con pdf gh.py`](./9-%20pipe%20con%20pdf%20gh.py) | Script que ejecuta todo el pipeline completo e incluye la exportación a PDF. |
-| [`10- Pipeline gh.py`](./10-%20Pipeline%20gh.py) | Pipeline principal del proyecto (sin PDF), orientado a la ejecución modular. |
-| [`11- preparar_datos.py`](./11-%20preparar_datos.py) | Funciones para carga, filtrado y transformación inicial de los datos. |
-| [`12- resumen.py`](./12-%20resumen.py) | Cálculo de métricas agregadas y preparación del contenido resumen del informe. |
-| [`13- datos_ejemplo.csv`](./13-%20datos_ejemplo.csv) | Dataset de ejemplo simulado (sin datos sensibles), utilizado para pruebas. |
-| [`14- grafico_pedidos_por_mes_2025-06-25.png`](./14-%20grafico_pedidos_por_mes_2025-06-25.png) | Visualización de la cantidad de derivaciones por mes. |
-| [`15- top10_motivos_2025-06-25.png`](./15-%20top10_motivos_2025-06-25.png) | Gráfico con los 10 motivos de derivación más frecuentes. |
+|---------|-------------------|
+| [`categorias.py`](./categorias.py) | Define y organiza las categorías relevantes para el análisis de motivos. |
+| [`configuracion.py`](./configuracion.py) | Contiene parámetros globales, paths y constantes utilizadas en todo el proyecto. |
+| [`diccionario.py`](./diccionario.py) | Diccionario de términos clave asociados a cada categoría para el fuzzy matching. |
+| [`enviar_mail.py`](./enviar_mail.py) | Script para configurar y enviar automáticamente los correos con los reportes. |
+| [`funciones_limpieza.py`](./funciones_limpieza.py) | Funciones reutilizables para normalización y limpieza de texto. |
+| [`graficos.py`](./graficos.py) | Generación de visualizaciones a partir de las métricas procesadas. |
+| [`informe_pdf.py`](./informe_pdf.py) | Exportación del informe en formato PDF, incluyendo visualizaciones y tablas. |
+| [`normalizacion.py`](./normalizacion.py) | Procesos para homogeneizar los textos del motivo de derivación. |
+| [`pipe_con_pdf_gh.py`](./pipe_con_pdf_gh.py) | Script que ejecuta todo el pipeline completo e incluye la exportación a PDF. |
+| [`pipeline_gh.py`](./pipeline_gh.py) | Pipeline principal del proyecto (sin PDF), orientado a la ejecución modular. |
+| [`preparar_datos.py`](./preparar_datos.py) | Funciones para carga, filtrado y transformación inicial de los datos. |
+| [`resumen.py`](./resumen.py) | Cálculo de métricas agregadas y preparación del contenido resumen del informe. |
+| [`datos_ejemplo.csv`](./datos_ejemplo.csv) | Dataset de ejemplo simulado (sin datos sensibles), utilizado para pruebas. |
+| [`grafico_pedidos_por_mes_2025_06_25.png`](./grafico_pedidos_por_mes_2025_06_25.png) | Visualización de la cantidad de derivaciones por mes. |
+| [`top10_motivos_2025_06_25.png`](./top10_motivos_2025_06_25.png) | Gráfico con los 10 motivos de derivación más frecuentes. |
 
 ---
 
